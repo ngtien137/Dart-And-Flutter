@@ -1,10 +1,10 @@
 # Dart And Flutter
 ## Khai báo biến
 * Khai báo biến không cần xác định kiểu dữ liệu:
-```js
+```ruby
   var name = 'Bob';
 ```
 * Khai báo biến dynamic
-```java
+```ruby
   dynamic name = 'Bob';
 ```
