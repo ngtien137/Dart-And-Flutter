@@ -5,6 +5,6 @@
   var name = 'Bob';
 ```
 * Khai báo biến dynamic
-```js
+```css
   dynamic name = 'Bob';
 ```
