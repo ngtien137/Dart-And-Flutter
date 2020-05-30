@@ -5,6 +5,6 @@
   var name = 'Bob';
 ```
 * Khai báo biến dynamic
-```css
+```flutter
   dynamic name = 'Bob';
 ```
