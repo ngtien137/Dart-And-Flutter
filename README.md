@@ -16,4 +16,4 @@ Với loại biến là dynamic, ta có thể coi đây là một loại biến 
   name = 5; //Không gây lỗi
   name = 'abc'; //Không gây lỗi
 ```
-* Khai báo 
+* Biến final và const
