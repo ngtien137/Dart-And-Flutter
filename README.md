@@ -1,7 +1,7 @@
 # Dart And Flutter
 ## Khai báo biến
 * Khai báo biến với kiểu dữ liệu:
-```js
+```java
   int lineCount1 = 5;
   int lineCount2; // Giá trị mặc định là null
 ```
