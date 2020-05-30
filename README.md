@@ -9,8 +9,7 @@
 ```kotlin
   var name = 'Bob';
 ```
-* Khai báo biến dynamic:
-** Với loại biến là dynamic, ta có thể coi đây là một loại biến linh động. Khác với var sẽ lấy kiểu dữ liệu ban đầu khi khai báo làm kiểu dữ liệu cho biến, biến dynamic có thể tùy biến kiểu dữ liệu thành các kiểu dữ liệu khác cũng giống với việc ta khai báo 1 dữ liệu là kiểu Object.
+* Khai báo biến dynamic: <br>Với loại biến là dynamic, ta có thể coi đây là một loại biến linh động. Khác với var sẽ lấy kiểu dữ liệu ban đầu khi khai báo làm kiểu dữ liệu cho biến, biến dynamic có thể tùy biến kiểu dữ liệu thành các kiểu dữ liệu khác cũng giống với việc ta khai báo 1 dữ liệu là kiểu Object.
 ```kotlin
   dynamic name = 'Bob';
   name = 5; //Không gây lỗi
