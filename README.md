@@ -6,7 +6,7 @@
   int lineCount2; // Giá trị mặc định là null
 ```
 * Khai báo biến không cần xác định kiểu dữ liệu:
-```java
+```kotlin
   var name = 'Bob';
 ```
 * Khai báo biến dynamic:
