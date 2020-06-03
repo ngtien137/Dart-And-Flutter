@@ -54,5 +54,24 @@ Khai báo 1 raw string, raw string sẽ không áp dụng những qui luật đ�
   Kết quả:
   'Test\nLine2'
 ```
-- Booleans:
+- Booleans:<br>
+Kí hiệu: bool và chả có gì đặc biệt cả
+```
+  bool res = false;
+```
+- List:<br>
+```
+  var list = [1,2,3];
+  List list2 = [1,2,3];
+  List<double> list3 = [1];
+  Có thể sử dụng câu lệnh điều kiện và vòng for khi gán giá trị luôn:
+  
+  var list = [0,1,if (1==2) 5 else 10];
+  
+  var listOfInts = [1, 2, 3];
+  var listOfStrings = ['#0',
+  for (var i in listOfInts) '#$i'];
+```
+- Set:<br>
+
 
