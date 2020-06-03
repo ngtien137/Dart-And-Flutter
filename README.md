@@ -60,6 +60,18 @@ Kí hiệu: bool và chả có gì đặc biệt cả
   bool res = false;
 ```
 - List:<br>
+Giống như kotlin, ở dart ta cũng phân list thành mutable và unmutable. Nếu khai báo list với một length cố định, ta sẽ không thể nào thay đổi được length của list đó cũng như thêm, xóa phần tử được.
+```
+  Mutable:
+  var list = new List();
+  hoặc var list = [0,1]
+  list.length = 0; //Không lỗi
+  list.add(5); //Không lỗi
+  UnMutable:
+  var list = new List(5);
+  list.length = 0; //Lỗi
+  list.add(5); //Lỗi
+```
 ```
   var list = [1,2,3];
   List list2 = [1,2,3];
