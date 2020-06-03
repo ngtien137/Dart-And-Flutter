@@ -15,4 +15,7 @@
   name = 5; //Không gây lỗi
   name = 'abc'; //Không gây lỗi
 ```
-* Biến final và const
+* Biến final và const:
+<br>Về cơ bản thì chúng đều là hằng số còn cách sử dụng hai biến này vẫn giống với kotlin thôi. Không có gì lạ lẫm hay mới mẻ gì ở đây cả nên sẽ không nói nhiều.
+
+
