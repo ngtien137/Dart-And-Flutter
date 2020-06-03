@@ -87,5 +87,13 @@ Ví dụ khác:
 ```
 - Ngoài ra còn có thêm các kiểu dữ liệu khác như Set, Map,... Chi tiết thì trang chủ có hết!
 
+## Hàm (Phương thức):
+```
+  isNoble(atomicNumber) {
+    return _nobleGases[atomicNumber] != null;
+  }
+  Có thể chuyển thành ngắn gọn hơn:
+  bool isNoble(int atomicNumber) => _nobleGases[atomicNumber] != null;
+```
 
 
