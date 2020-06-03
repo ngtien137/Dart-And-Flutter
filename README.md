@@ -70,8 +70,9 @@ Giống như kotlin, ở dart ta cũng phân list thành mutable và unmutable. 
   UnMutable:
   var list = new List(5);
   list.length = 0; //Lỗi
-  list.add(5); //Lỗi
+  list.add(11); //Lỗi
 ```
+Ví dụ khác:
 ```
   var list = [1,2,3];
   List list2 = [1,2,3];
@@ -84,6 +85,7 @@ Giống như kotlin, ở dart ta cũng phân list thành mutable và unmutable. 
   var listOfStrings = ['#0',
   for (var i in listOfInts) '#$i'];
 ```
-- Set:<br>
+- Ngoài ra còn có thêm các kiểu dữ liệu khác như Set, Map,... Chi tiết thì trang chủ có hết!
+
 
 
